@@ -1,0 +1,81 @@
+
+public class RectangleTest {
+
+	
+	
+	
+class Rect {
+	
+	private double width, length;
+	
+	public Rect() {
+	//this.width = 10.0 ;
+	//this.length = 10.0; 	
+		this(10.0,10.0);
+		
+		
+	}
+	
+	public Rect(double width, double length) {
+		
+		super();
+		this.width = width;
+		this.length = length; 
+		
+		
+	}
+
+	public double getWidth() {
+		return width;
+	}
+
+	public void setWidth(double width) {
+		this.width = width;
+	}
+
+	public double getLength() {
+		return length;
+	}
+
+	public void setLength(double length) {
+		this.length = length;
+	}
+	
+	
+	
+	public double calcArea() {
+		
+		return width*length;
+	}
+	
+	public String toString() {
+		
+		return " 가로 = " + width +" 세로  = "+ length +" 넓이  =  "+ calcArea();
+		
+		
+	}
+}
+	
+	
+	
+	public static void main(String[] args) {
+			
+		Rect r1  = new Rect();
+		System.out.println(" 가로 = " + r1.getWidth() +" 세로  = "+r1.getLength()+" 넓이  =  "+ r1.calcArea());
+		
+		
+		Rect r2 = new Rect(5.5 ,10.0);
+		System.out.println(r2);
+		
+		r2.setWidth(20.0);
+		System.out.println(r2.toString());
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

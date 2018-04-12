@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.practice.Functions&apos; to &apos;MathFunction&apos;&#x0D;&#x0A;- Original project: &apos;UilityFunction&apos;&#x0D;&#x0A;- Original element: &apos;com.practice.Functions&apos;&#x0D;&#x0A;- Renamed element: &apos;com.practice.MathFunction&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Functions&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.practice{Functions.java[Functions" matchStrategy="1" name="MathFunction" qualified="false" references="true" similarDeclarations="false" stamp="1522304916244" textual="false" version="1.0"/>
+</session>

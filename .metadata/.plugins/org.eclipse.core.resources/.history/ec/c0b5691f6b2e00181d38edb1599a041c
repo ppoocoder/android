@@ -1,0 +1,18 @@
+package javastudy;
+
+public class Circle2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int radius;
+		String name;
+		
+		
+		
+		radius =1;
+		name = "3";
+		System.out.println(radius+name);
+	
+	}
+
+}
